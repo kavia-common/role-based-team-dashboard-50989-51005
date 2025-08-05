@@ -1,0 +1,36 @@
+.dashboard {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 32px 0 rgba(232, 114, 36, 0.08), 0 1.5px 4px 0 #e9e9ef;
+  padding: 2.1rem 2.5rem;
+  min-width: 0;
+  min-height: 260px;
+}
+.dashboard h1 {
+  color: var(--primary);
+  font-size: 2.1rem;
+  margin-bottom: 1.15rem;
+  font-weight: 700;
+}
+.dashboard .panel {
+  margin-top: 1.27rem;
+  background: var(--secondary);
+  border-radius: 9px;
+  padding: 1.1em 1.6em;
+}
+.dashboard .panel h2 {
+  color: var(--accent);
+  font-size: 1.18rem;
+}
+.dashboard ul {
+  margin: 0.3em 0 0 0.5em;
+}
+.dashboard li {
+  margin: 0.5em 0;
+  color: #434343;
+}
+@media (max-width: 700px) {
+  .dashboard {
+    padding: 1rem 0.6rem;
+  }
+}
